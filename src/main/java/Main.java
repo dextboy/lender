@@ -7,6 +7,7 @@ public class Main {
 
     public static void addLoan(String borrower, int amount, double interestRate) {
         borrowers[loansCount] = borrower;
+        borrowers2[loansCount] = borrower;
         amounts[loansCount] = amount;
         interestRates[loansCount] = interestRate;
         loansCount++;
