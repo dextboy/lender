@@ -17,6 +17,19 @@ public class Main {
             if (borrowers[i].equals(borrower)) {
                 isPaid[i] = true;
             }
+            switch (borrower) {
+            case "Alice Betsy":
+                System.out.println("Alice Betsy");
+                break;
+            case "Ben Chee":
+                System.out.println("Ben Chee");
+                break;
+            case "Chris Davis":
+                System.out.println("Chris Davis");
+                break;
+            default:
+                System.out.println("No such borrower");
+            }
         }
     }
 
